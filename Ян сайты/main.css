@@ -1,0 +1,16 @@
+body{
+	margin: 35px;
+	box-shadow: 0 0 20px 10px rgba(148, 148, 148.1);
+	font-family: 'Russo One', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+html{
+	
+}
+img{
+
+	border-radius: 100px;
+}
+a:hover{
+	color: orangered;
+}

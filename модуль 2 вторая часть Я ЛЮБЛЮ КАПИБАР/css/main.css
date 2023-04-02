@@ -1,0 +1,41 @@
+.img-box{
+	column-count: 4;
+	column-gap: 5px;
+	width: 90%;
+	margin:auto ;
+}
+.image{
+	max-width:100%;
+	display: block;
+	filter: hue-rotate(993deg);
+	transition: 0.1s;
+
+}
+.image:hover{
+	filter: hue-rotate(0deg);
+}
+.image+ .image{
+	margin: 5px;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	border: 5px solid orange;
+	color: orange;
+}
+body{
+	background-color: white;
+}
+
+
+@media all and (max-width: 500px){
+	.img-box{
+		column-count: 1;
+	}
+}
+
+@media all and (max-width: 1000px){
+	.img-box{
+		column-count: 2;
+	}
+}
